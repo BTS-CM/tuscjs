@@ -4,7 +4,7 @@ module.exports = {
     entry: "./dist/index.js",
     output: {
         path: path.resolve(__dirname, "build"),
-        filename: "bitsharesjs.cjs",
+        filename: "tuscjs.cjs",
         library: "",
         libraryTarget: "commonjs"
     }
