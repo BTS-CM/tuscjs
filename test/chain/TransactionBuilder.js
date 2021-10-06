@@ -1,5 +1,5 @@
 import assert from "assert";
-import {Apis} from "bitsharesjs-ws";
+import {Apis} from "tuscjs-ws";
 import {TransactionBuilder, ops, hash} from "../../lib";
 
 describe("TransactionBuilder", () => {

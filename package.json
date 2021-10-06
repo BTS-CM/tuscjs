@@ -1,6 +1,6 @@
 {
-    "name": "bitsharesjs",
-    "version": "5.0.0",
+    "name": "tuscjs",
+    "version": "0.1.0",
     "description": "Pure JavaScript BitShares library for node.js and browsers.",
     "browser": {
         "ws": false,
@@ -21,8 +21,8 @@
         "postbuild": "npm run browserify && npm run build-es && npm run webpack",
         "build:watch": "babel lib -d dist --watch",
         "prebrowserify": "mkdirp build",
-        "browserify": "cross-env NODE_ENV=production browserify --full-paths false dist/browser.js --standalone bitshares_js -o build/bitsharesjs.js -d",
-        "postbrowserify": "cross-env NODE_ENV=production minify build/bitsharesjs.js --mangle --outFile build/bitsharesjs.min.js",
+        "browserify": "cross-env NODE_ENV=production browserify --full-paths false dist/browser.js --standalone bitshares_js -o build/tuscjs.js -d",
+        "postbrowserify": "cross-env NODE_ENV=production minify build/tuscjs.js --mangle --outFile build/tuscjs.min.js",
         "precommit": "pretty-quick --staged && npm run test",
         "doc": "esdoc -c esdoc.json",
         "example:asset": "babel-node examples/updateAsset",
@@ -39,7 +39,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bitshares/bitsharesjs.git"
+        "url": "git+https://github.com/TUSCNetwork/tuscjs.git"
     },
     "author": "BitShares UI Team <ui-dev@bitshares.org>",
     "contributors": [
@@ -50,7 +50,7 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/bitshares/bitsharesjs/issues"
+        "url": "https://github.com/TUSCNetwork/tuscjs/issues"
     },
     "engines": {
         "node": ">= 6.0.0"
@@ -59,7 +59,7 @@
     "jsnext:main": "./es/index.js",
     "dependencies": {
         "bigi": "1.4.2",
-        "bitsharesjs-ws": "^4.0.0",
+        "tuscjs-ws": "^0.1.0",
         "bs58": "4.0.1",
         "bytebuffer": "5.0.1",
         "create-hash": "1.2.0",

@@ -1,3 +1,3 @@
 npm login
 npm pack
-npm publish bitsharesjs-$1.tgz --tag next
+npm publish tuscjs-$1.tgz --tag next
