@@ -59,7 +59,7 @@
     "jsnext:main": "./es/index.js",
     "dependencies": {
         "bigi": "1.4.2",
-        "tuscjs-ws": "0.1.0",
+        "tuscjs-ws": "git+https://github.com/TUSCNetwork/tuscjs-ws.git",
         "bs58": "4.0.1",
         "bytebuffer": "5.0.1",
         "create-hash": "1.2.0",
