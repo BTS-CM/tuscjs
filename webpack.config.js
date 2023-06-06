@@ -6,7 +6,6 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "build"),
         filename: "tuscjs.cjs",
-        library: "",
         libraryTarget: "commonjs"
     },
     resolve:{
