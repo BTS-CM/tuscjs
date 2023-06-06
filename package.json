@@ -53,7 +53,7 @@
         "url": "https://github.com/TUSCNetwork/tuscjs/issues"
     },
     "engines": {
-        "node": ">= 6.0.0"
+        "node": ">= 16.13.0"
     },
     "main": "./dist/index.js",
     "jsnext:main": "./es/index.js",
